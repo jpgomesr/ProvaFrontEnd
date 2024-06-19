@@ -1,0 +1,21 @@
+@font-face {
+    font-family: cocosharpExtrabold;
+    src: url(../fonts/Coco-Sharp-Extrabold-trial.ttf);
+}
+
+* {
+    margin: 0;
+    border: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.website-title {
+    font-family: cocosharpExtrabold, sans-serif;
+}
+
+.tesla {
+    border-radius: 20px;
+}
