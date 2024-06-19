@@ -8,6 +8,10 @@
     border: 0;
 }
 
+.desktop {
+    display: none;
+}
+
 .container {
     display: flex;
 }
