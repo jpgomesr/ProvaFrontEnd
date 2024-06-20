@@ -3,23 +3,86 @@
     src: url(../fonts/Coco-Sharp-Extrabold-trial.ttf);
 }
 
+@font-face {
+    font-family: cocosharpRegular;
+    src: url(../fonts/Coco-Sharp-Regular-trial.ttf);
+}
+
 * {
     margin: 0;
     border: 0;
+    background-color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.website-title {
+    font-family: cocosharpExtrabold, sans-serif;
+    margin-top: 3.87rem;
+    font-size: 2.25rem;
+    letter-spacing: 0.0225rem;
+    color: #fe5b3e;
+}
+
+.website-menu-hamburguer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3.69rem;
+    border: 1px solid rgba(254, 91, 62, 0.1);
+    border-radius: 10.5px;
+    padding: 0.4em;
+    opacity: 1;
 }
 
 .desktop {
     display: none;
 }
 
-.container {
+.mobile {
     display: flex;
 }
 
-.website-title {
-    font-family: cocosharpExtrabold, sans-serif;
+.container {
+    display: flex;
+    flex-direction: column;
 }
 
 .tesla {
     border-radius: 20px;
+    margin: 3rem 2rem 5rem 2rem;
+}
+
+.color-half-black {
+    color: #303030;
+}
+.color-orange {
+    color: #fe5b3e;
+}
+
+.website-title-body {
+    font-size: 2.1rem;
+    font-family: cocosharpExtrabold, sans-serif;
+    margin-bottom: 1.5rem;
+    line-height: 4.625rem;
+    letter-spacing: 0.03rem;
+}
+
+.website-text-body {
+    font-family: cocosharpRegular, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.03rem;
+    opacity: 0.8;
+}
+
+.secao1 {
+    margin-left: 1.75rem;
+    margin-right: 2rem;
 }
