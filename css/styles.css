@@ -8,6 +8,14 @@
     src: url(../fonts/Coco-Sharp-Regular-trial.ttf);
 }
 
+.desktop {
+    display: none;
+}
+
+.mobile {
+    display: flex;
+}
+
 * {
     margin: 0;
     border: 0;
@@ -40,14 +48,6 @@ header {
     border-radius: 10.5px;
     padding: 0.4em;
     opacity: 1;
-}
-
-.desktop {
-    display: none;
-}
-
-.mobile {
-    display: flex;
 }
 
 .container {
