@@ -12,6 +12,7 @@
     margin: 0;
     border: 0;
     background-color: #fff;
+    color: #303030;
 }
 
 header {
@@ -59,9 +60,6 @@ header {
     margin: 3rem 2rem 5rem 2rem;
 }
 
-.color-half-black {
-    color: #303030;
-}
 .color-orange {
     color: #fe5b3e;
 }
@@ -72,6 +70,47 @@ header {
     margin-bottom: 1.5rem;
     line-height: 4.625rem;
     letter-spacing: 0.03rem;
+}
+
+.website-title-body h4 {
+    font-size: 1.25rem;
+    line-height: normal;
+    margin-top: 2rem;
+    font-weight: 400;
+}
+
+.website-subtitle-body {
+    font-size: 1rem;
+    line-height: normal;
+    letter-spacing: normal;
+    font-weight: 500;
+    font-family: cocosharpRegular;
+    font-style: normal;
+}
+
+.website-subtitle-body p {
+    opacity: 0.4;
+    margin-bottom: 0.2rem;
+}
+
+.website-subtitle-body h3 {
+    font-size: 1.25rem;
+    font-weight: 900;
+}
+
+.website-avaliation-image {
+    margin-right: 1.13rem;
+}
+
+.website-avaliation-star {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.1rem;
+}
+
+.website-avaliation-star img {
+    margin-right: 0.37rem;
+
 }
 
 .website-text-body {
@@ -85,4 +124,10 @@ header {
 .secao1 {
     margin-left: 1.75rem;
     margin-right: 2rem;
+}
+
+.website-avaliation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
