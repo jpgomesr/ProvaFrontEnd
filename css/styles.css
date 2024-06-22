@@ -39,7 +39,7 @@ header {
     color: #fe5b3e;
 }
 
-.website-menu-hamburguer {
+.website-border-orange {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,6 +58,9 @@ header {
 .tesla {
     border-radius: 20px;
     margin: 3rem 2rem 5rem 2rem;
+    width: 19.4375rem;
+    height: 37rem;
+    flex-shrink: 0;
 }
 
 .color-orange {
@@ -93,9 +96,32 @@ header {
     margin-bottom: 0.2rem;
 }
 
+
+
 .website-subtitle-body h3 {
     font-size: 1.25rem;
     font-weight: 900;
+}
+
+.website-subtitle-body h4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 100;
+    font-size: 1.2rem;
+    opacity: 0.6;
+    margin-top: 8rem;
+    letter-spacing: 0.075rem;
+}
+
+.website-subtitle-body h5 {
+    font-size: 2.25rem;
+    font-family: cocosharpExtrabold, sans-serif;
+    text-align: center;
+    margin-left: 0.5rem;
+    margin-top: 1rem;
+    line-height: 2.875rem;
+    letter-spacing: 0.0225rem;
 }
 
 .website-avaliation-image {
@@ -126,8 +152,67 @@ header {
     margin-right: 2rem;
 }
 
+.secao2 {
+    margin-left: 2.06rem;
+    margin-right: 2.06rem;
+}
+
+.secao3 {
+    margin-left: 0.81rem;
+    margin-right: 0.81rem;
+    margin-top: 1rem;
+}
+
 .website-avaliation {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.text-align-center {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.website-box-gray {
+    background-color: #f3f5f7;
+    border-radius: 24px;
+    width: 21.8125rem;
+    height: 22.8125rem;
+    flex-shrink: 0;
+    font-family: cocosharpRegular, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.25rem;
+}
+
+.website-box-gray h3 {
+    background-color: #f3f5f7;
+    font-weight: 900;
+    padding-top: 2.25rem;
+    padding-bottom: 1rem;
+}
+
+.website-box-gray p {
+    background-color: #f3f5f7;
+    text-align: center;
+    padding-left: 3.81rem;
+    padding-right: 3.87rem;
+}
+
+.website-circle-red {
+    background-color: #fe5b3e;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8em;
+    height: 8em;
+    flex-shrink: 0; 
+}
+
+.website-circle-red img {
+    background-color: #fe5b3e;
 }
