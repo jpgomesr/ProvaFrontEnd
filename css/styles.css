@@ -1,12 +1,4 @@
-@font-face {
-    font-family: cocosharpExtrabold;
-    src: url(../fonts/Coco-Sharp-Extrabold-trial.ttf);
-}
-
-@font-face {
-    font-family: cocosharpRegular;
-    src: url(../fonts/Coco-Sharp-Regular-trial.ttf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 .desktop {
     display: none;
@@ -32,11 +24,12 @@ header {
 }
 
 .website-title {
-    font-family: cocosharpExtrabold, sans-serif;
+    font-family: "Montserrat", sans-serif;
     margin-top: 3.87rem;
     font-size: 2.25rem;
     letter-spacing: 0.0225rem;
     color: #fe5b3e;
+    font-weight: 800;
 }
 
 .website-border-orange {
@@ -68,18 +61,26 @@ header {
 }
 
 .website-title-body {
-    font-size: 2.1rem;
-    font-family: cocosharpExtrabold, sans-serif;
+    font-family: "Montserrat", sans-serif;
     margin-bottom: 1.5rem;
-    line-height: 4.625rem;
+    line-height: 4.6rem;
     letter-spacing: 0.03rem;
 }
 
+.website-title-body h2 {
+    font-size: 2.7rem;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 0.1rem;
+    line-height: 4.6rem;
+    letter-spacing: 0.03rem;
+    font-weight: 800;
+}
+
 .website-title-body h4 {
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     line-height: normal;
     margin-top: 2rem;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .website-subtitle-body {
@@ -87,7 +88,7 @@ header {
     line-height: normal;
     letter-spacing: normal;
     font-weight: 500;
-    font-family: cocosharpRegular;
+    font-family: "Montserrat", sans-serif;
     font-style: normal;
 }
 
@@ -100,14 +101,14 @@ header {
 
 .website-subtitle-body h3 {
     font-size: 1.25rem;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 .website-subtitle-body h4 {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-weight: 100;
+    font-weight: 500;
     font-size: 1.2rem;
     opacity: 0.6;
     margin-top: 8rem;
@@ -116,12 +117,13 @@ header {
 
 .website-subtitle-body h5 {
     font-size: 2.25rem;
-    font-family: cocosharpExtrabold, sans-serif;
+    font-family: "Montserrat", sans-serif;
     text-align: center;
     margin-left: 0.5rem;
     margin-top: 1rem;
     line-height: 2.875rem;
     letter-spacing: 0.0225rem;
+    font-weight: 800;
 }
 
 .website-avaliation-image {
@@ -140,27 +142,12 @@ header {
 }
 
 .website-text-body {
-    font-family: cocosharpRegular, sans-serif;
-    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.95rem;
     line-height: 1.5rem;
     letter-spacing: 0.03rem;
     opacity: 0.8;
-}
-
-.secao1 {
-    margin-left: 1.75rem;
-    margin-right: 2rem;
-}
-
-.secao2 {
-    margin-left: 2.06rem;
-    margin-right: 2.06rem;
-}
-
-.secao3 {
-    margin-left: 0.81rem;
-    margin-right: 0.81rem;
-    margin-top: 1rem;
+    font-weight: 500;
 }
 
 .website-avaliation {
@@ -180,7 +167,7 @@ header {
     width: 21.8125rem;
     height: 22.8125rem;
     flex-shrink: 0;
-    font-family: cocosharpRegular, sans-serif;
+    font-family: "Montserrat", sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -190,7 +177,7 @@ header {
 
 .website-box-gray h3 {
     background-color: #f3f5f7;
-    font-weight: 900;
+    font-weight: 700;
     padding-top: 2.25rem;
     padding-bottom: 1rem;
 }
@@ -200,6 +187,7 @@ header {
     text-align: center;
     padding-left: 3.81rem;
     padding-right: 3.87rem;
+    font-size: 1rem;
 }
 
 .website-circle-red {
@@ -215,4 +203,81 @@ header {
 
 .website-circle-red img {
     background-color: #fe5b3e;
+}
+
+.website-subtitle-body-flex-start h4 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.website-subtitle-body-flex-start h5 {
+    font-size: 2.25rem;
+    font-family: "Montserrat", sans-serif;
+    line-height: 2.875rem;
+    letter-spacing: 0.0225rem;
+    margin-bottom: 1.5rem;
+    font-weight: 800;
+}
+
+.website-text-body-margin-right {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.03rem;
+    opacity: 0.8;
+    font-weight: 500;
+    margin-right: 0.19rem;
+    margin-bottom: 0.87rem;
+}
+
+.website-text-body-margin-default {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.03rem;
+    opacity: 0.8;
+    font-weight: 500;
+}
+
+.website-select-section {
+    margin-top: 1.88rem;
+}
+
+.website-select-box {
+    display: flex;
+    flex-direction: row;
+}
+
+.website-select-icon {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-right: 1rem;
+}
+
+
+
+
+/* Separações de seção */
+
+.secao1 {
+    margin-left: 1.75rem;
+    margin-right: 2rem;
+}
+
+.secao2 {
+    margin-left: 2.06rem;
+    margin-right: 2.06rem;
+}
+
+.secao3 {
+    margin-left: 0.81rem;
+    margin-right: 0.81rem;
+    margin-top: 1rem;
+}
+
+.secao4 {
+    margin-left: 2rem;
+    margin-right: 2.25rem;
 }
