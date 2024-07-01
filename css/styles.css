@@ -43,6 +43,12 @@ header {
     opacity: 1;
 }
 
+.website-border-orange a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -109,7 +115,7 @@ header {
     align-items: center;
     justify-content: center;
     font-weight: 500;
-    font-size: 1.2rem;
+    font-size: 1.15rem;
     opacity: 0.6;
     margin-top: 8rem;
     letter-spacing: 0.075rem;
@@ -218,6 +224,8 @@ header {
     letter-spacing: 0.0225rem;
     margin-bottom: 1.5rem;
     font-weight: 800;
+    max-width: 17rem;
+    margin-top: 1rem;
 }
 
 .website-text-body-margin-right {
@@ -284,7 +292,7 @@ header {
 }
 
 .website-border-button a {
-    border: 1px solid rgba(254, 91, 62, 0.1);
+    border: 1px solid rgba(254, 91, 62, 0.3);
     border-radius: 10.5px;
     padding: 0.4em;
     opacity: 1;
@@ -301,6 +309,57 @@ header {
 
 .website-ferrari-image {
     margin-top: 1.7rem;
+}
+
+.website-margin-top {
+    margin-top: 3.5rem;
+}
+
+.website-organization-advantages {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.88rem;
+}
+
+.website-box-gray-advantages {
+    width: 9.375rem;
+    height: 9.375rem;
+    flex-shrink: 0;
+    border-radius: 11.67px;
+    background: #F3F5F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.website-box-gray-advantages img {
+    background: #F3F5F7;
+    margin-bottom: 0.73rem;
+}
+
+.website-box-gray-advantages h5 {
+    background: #F3F5F7;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.8rem;
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+    text-align: center;
+    line-height: 1.25rem;
+    letter-spacing: 0.00813rem;
+    font-weight: 700;
+}
+
+.website-box-gray-advantages h6 {
+    background: #f3f5f7;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.6rem;
+    text-align: center;
+    line-height: 1.09rem;
+    letter-spacing: 0.00688rem;
+    font-weight: 700;
+    margin-right: 1.9rem;
+    margin-left: 1.9rem;
 }
 
 
@@ -325,4 +384,9 @@ header {
 .secao4 {
     margin-left: 2rem;
     margin-right: 2.25rem;
+}
+
+.secao5 {
+    margin-left: 2rem;
+    margin-right: 1.75rem;
 }
