@@ -256,7 +256,52 @@ header {
     margin-right: 1rem;
 }
 
+.website-selection-box {
+    font-family: "Montserrat", sans-serif;
+    text-align: start;
+    margin-left: 0.12rem;
+}
 
+.website-selection-box h3 {
+    font-weight: 600;
+    letter-spacing: 0.0375rem;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.website-selection-box p {
+    font-size: 0.94rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.03rem;
+    opacity: 0.8;
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+}
+
+.website-border-button {
+    margin-top: 2.2rem;
+    margin-bottom: 5rem;
+}
+
+.website-border-button a {
+    border: 1px solid rgba(254, 91, 62, 0.1);
+    border-radius: 10.5px;
+    padding: 0.4em;
+    opacity: 1;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    color: #FE5B3E;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.01rem;
+    padding: 0.62rem 1.56rem;
+}
+
+.website-ferrari-image {
+    margin-top: 1.7rem;
+}
 
 
 /* Separações de seção */
