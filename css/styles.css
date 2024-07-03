@@ -4,14 +4,9 @@
     display: none;
 }
 
-.mobile {
-    display: flex;
-}
-
 * {
     margin: 0;
     border: 0;
-    background-color: #fff;
     color: #303030;
 }
 
@@ -362,6 +357,94 @@ header {
     margin-left: 1.9rem;
 }
 
+.website-box-gray-cars {
+    padding-top: 3.75rem;
+    padding-bottom: 2.62rem;
+    background-color: #f3f5f7;
+    border-radius: 30px;
+}
+
+.website-subtitle-body-cars {
+    background-color: #f3f5f7;
+    font-family: "Montserrat", sans-serif;
+}
+
+.website-subtitle-body-cars h4 {
+    background-color: #f3f5f7;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-weight: 500;
+    font-size: 1.15rem;
+    opacity: 0.6;
+    letter-spacing: 0.075rem;
+}
+
+.website-subtitle-body-cars h5 {
+    background-color: #f3f5f7;
+    font-size: 2.25rem;
+    line-height: 2.875rem;
+    letter-spacing: 0.0225rem;
+    margin-bottom: 1.5rem;
+    font-weight: 800;
+    max-width: 17rem;
+    margin-top: 1rem;
+}
+
+.color-orange-cars {
+    color: #FE5B3E;
+    background-color: #f3f5f7;
+}
+
+.website-div-cars-1 {
+    margin-left: 1.88rem;
+    margin-right: 5rem;
+}
+
+.website-div-cars-2 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1.88rem;
+    margin-right: 1.87rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.website-div-cars-3 {
+    margin-left: 1.38rem;
+    margin-right: 2rem;
+    margin-bottom: 4.75rem;
+}
+
+.website-text-body-cars {
+    color: #303030;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: 0.03375rem;
+}
+
+.website-littlebox-white-cars {
+    width: 3.75rem;
+    height: 3.75rem;
+    background-color: #fff;
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.website-box-white-cars {
+    width: 16.3125rem;
+    height: 18.5rem;
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
 
 /* Separações de seção */
 
@@ -389,4 +472,10 @@ header {
 .secao5 {
     margin-left: 2rem;
     margin-right: 1.75rem;
+}
+
+.secao6 {
+    margin-left: 2rem;
+    margin-right: 1.75rem;
+    margin-top: 5rem;
 }
