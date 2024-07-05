@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 
 .desktop {
     display: none;
@@ -59,6 +60,10 @@ header {
 
 .color-orange {
     color: #fe5b3e;
+}
+
+.color-white {
+    color: #fff;
 }
 
 .website-title-body {
@@ -213,7 +218,7 @@ header {
 }
 
 .website-subtitle-body-flex-start h5 {
-    font-size: 2.25rem;
+    font-size: 2.2rem;
     font-family: "Montserrat", sans-serif;
     line-height: 2.875rem;
     letter-spacing: 0.0225rem;
@@ -426,6 +431,40 @@ header {
     letter-spacing: 0.03375rem;
 }
 
+.website-text-box-cars {
+    font-family: "Montserrat", sans-serif;
+}
+
+.website-text-box-cars h1 {
+    font-size: 1.5rem;
+    color: #303030;
+    letter-spacing: 0.015rem;
+    font-weight: 700;
+}
+
+.website-text-box-cars h3 {
+    font-size: 1rem;
+    color: #303030;
+    font-weight: 400;
+    opacity: 0.2;
+    letter-spacing: 0.01rem;
+}
+
+.website-text-box-cars h2 {
+    font-size: 1.25rem;
+    color: #fe5b3e;
+    font-weight: 700;
+    letter-spacing: 0.0125rem;
+}
+
+.website-text-box-cars p {
+    font-size: 0.875rem;
+    color: #303030;
+    font-weight: 600;
+    letter-spacing: 0.0175rem;
+    margin-left: 0.37rem;
+}
+
 .website-littlebox-white-cars {
     width: 3.75rem;
     height: 3.75rem;
@@ -442,7 +481,186 @@ header {
     background-color: #fff;
     border-radius: 20px;
     display: flex;
+    flex-direction: column;
+}
+
+.website-cars-image {
+    width: 210px;
+    height: 98px;
+    margin: 3rem 1.63rem 1.63rem 1.56rem;
+}
+
+.website-information-cars {
+    margin-left: 1.56rem;
+    margin-right: 1.63rem;
+}
+
+.website-information-title-cars {
+    margin-bottom: 0.37rem;
+}
+
+.website-information-subtitle-cars {
+    margin-bottom: 1rem;
+}
+
+.website-information-aditionals-cars {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.website-information-avaliation-cars {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.website-pages-cars {
+    margin: 4.75rem 3.75rem 0 3.44rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    color: #303030;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.website-pages-box-white-cars {
+    display: flex;
     justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 0.69rem 2.31rem 0.62rem 2.31rem;
+    border-radius: 0.625rem;
+    border: 1px solid rgba(48, 48, 48, 0.20);
+    margin: 0 0.8rem 0 0.8rem;
+}
+
+.website-pages-button-cars {
+    margin: 2.85rem 5.94rem 0 5.63rem;
+}
+
+.website-orange-button a {
+    background-color: #fe5b3e;
+    padding: 0.62rem 1.56rem;
+    color: #fff;
+    font-family: "Monntserrat", sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.01rem;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.website-image-background {
+    background-image: url(/imagens/image-blur.png);
+    width: 23.375rem;
+    height: 26.625rem;
+}
+
+.website-subtitle-image h2 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    line-height: 2.875rem;
+    letter-spacing: 0.0225rem;
+    margin-left: 1.44rem;
+    margin-right: 1.56rem;
+    text-align: center;
+    padding-top: 4.38rem;
+}
+
+.website-text-image {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.95rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.03rem;
+    opacity: 0.8;
+    font-weight: 300;
+    padding-left: 1.31rem;
+    padding-right: 1.38rem;
+}
+
+.website-image-button {
+    display: flex;
+    justify-content: center;
+    padding-top: 3.37rem;
+}
+
+.website-footer-button {
+    margin-top: 2.12rem;
+}
+
+.website-title-footer h5 {
+    color: #303030;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.875rem;
+    letter-spacing: 0.0225rem;
+}
+
+.website-footer-links {
+    margin-top: 4.38rem;
+}
+
+.website-footer-links-text {
+    margin-bottom: 0.8rem;
+}
+
+.website-footer-links-text h3 {
+    color: #FE5B3E;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.0625rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.0145rem;
+    margin-bottom: 1.38rem;
+}
+
+.website-footer-links-text p {
+    color: #303030;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.01281rem;
+    opacity: 0.6;
+    margin-bottom: 1.38rem;
+}
+
+.website-footer-policy {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.website-footer-text {
+    color: #303030;
+    font-family: "DM Sans", sans-serif;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.01281rem;
+    margin-top: 1.5rem;
+    text-decoration: none;
+}
+
+.website-footer-text a {
+    text-decoration: none;
+}
+
+.website-footer-social {
+    width: 8.37263rem;
+    height: 1.375rem;
+    margin-top: 2.5rem;
+    margin-bottom: 4rem;
 }
 
 
@@ -478,4 +696,14 @@ header {
     margin-left: 2rem;
     margin-right: 1.75rem;
     margin-top: 5rem;
+}
+
+.secao7 {
+    margin-top: 3.13rem;
+}
+
+footer {
+    margin-left: 2rem;
+    margin-top: 4.5rem;
+    margin-right: 4.81rem;
 }
