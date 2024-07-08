@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 
-.desktop {
+.desktop-only {
     display: none;
+}
+
+.mobile-only {
+    display: flex;
 }
 
 * {
@@ -11,17 +15,17 @@
     color: #303030;
 }
 
-header {
+.website-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-left: 2rem;
     margin-right: 2rem;
+    margin-top: 3.87rem;
 }
 
 .website-title {
     font-family: "Montserrat", sans-serif;
-    margin-top: 3.87rem;
     font-size: 2.25rem;
     letter-spacing: 0.0225rem;
     color: #fe5b3e;
@@ -32,7 +36,6 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 3.69rem;
     border: 1px solid rgba(254, 91, 62, 0.1);
     border-radius: 10.5px;
     padding: 0.4em;
@@ -53,8 +56,7 @@ header {
 .tesla {
     border-radius: 20px;
     margin: 3rem 2rem 5rem 2rem;
-    width: 19.4375rem;
-    height: 37rem;
+    width: 19.4rem;
     flex-shrink: 0;
 }
 
@@ -103,8 +105,6 @@ header {
     margin-bottom: 0.2rem;
 }
 
-
-
 .website-subtitle-body h3 {
     font-size: 1.25rem;
     font-weight: 700;
@@ -144,7 +144,6 @@ header {
 
 .website-avaliation-star img {
     margin-right: 0.37rem;
-
 }
 
 .website-text-body {
@@ -154,12 +153,17 @@ header {
     letter-spacing: 0.03rem;
     opacity: 0.8;
     font-weight: 500;
+    margin-bottom: 0.88rem;
 }
 
 .website-avaliation {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.website-avaliation-desktop {
+    display: none;
 }
 
 .text-align-center {
@@ -706,4 +710,213 @@ footer {
     margin-left: 2rem;
     margin-top: 4.5rem;
     margin-right: 4.81rem;
+}
+
+@media (min-width: 1024px) {
+
+    .desktop-only {
+        display: flex;
+    }
+
+    .mobile-only {
+        display: none;
+    }
+
+    .website-subtitle-body {
+        font-size: 1rem;
+        line-height: normal;
+        letter-spacing: normal;
+        font-weight: 500;
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
+    }
+    
+    .website-subtitle-body p {
+        opacity: 0.4;
+        margin-bottom: 0.2rem;
+    }
+    
+    .website-subtitle-body h3 {
+        font-size: 1.25rem;
+        font-weight: 700;
+    }
+    
+    .website-subtitle-body h4 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 500;
+        font-size: 1.25rem;
+        opacity: 0.6;
+        margin-top: 8rem;
+        letter-spacing: 0.075rem;
+    }
+    
+    .website-subtitle-body h5 {
+        font-size: 4.125rem;
+        font-family: "Montserrat", sans-serif;
+        text-align: center;
+        margin-left: 0.5rem;
+        margin-top: 1rem;
+        line-height: 4.75rem;
+        letter-spacing: 0.04125rem;
+        font-weight: 800;
+        margin: 0.88rem 18rem 0 18rem;
+    }
+
+    .website-desktop-principal {
+        display: flex;
+        flex-direction: row;
+        margin-top: -5rem;
+        z-index: 0;
+    }
+
+    .tesla {
+        border-radius: 20px;
+        margin: 0 2rem 5rem 2rem;
+        width: 19.4rem;
+        flex-shrink: 0;
+    }
+
+    .website-title {
+        font-family: "Montserrat", sans-serif;
+        font-size: 2.25rem;
+        letter-spacing: 0.0225rem;
+        color: #fe5b3e;
+        font-weight: 800;
+    }
+
+    .website-header {
+        margin: 3.87rem 0 0 8.75rem;
+        align-items: center;
+        display: flex;
+        justify-content: normal;
+        position: relative;
+    }
+    
+    .website-orange-button a {
+        background-color: #fe5b3e;
+        border-radius: 10.5px;
+        padding: 0.4em;
+        opacity: 1;
+        text-decoration: none;
+        font-family: "Montserrat", sans-serif;
+        color: #fff;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 0.01rem;
+        padding: 0.62rem 1.56rem;
+    }
+
+    .website-navbar {
+        color: #303030;
+        font-family: "Montserrat", sans-serif;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.01rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 25rem;
+        margin-right: 4rem;
+    }
+
+    .website-navbar li {
+        margin-right: 2.5rem;
+    }
+
+    ul li {
+        list-style-type: none;
+    }
+
+    .website-border-button {
+        margin: 0;
+    }
+    
+    .website-border-button a {
+        border: 1px solid rgba(254, 91, 62, 0.3);
+        border-radius: 10.5px;
+        padding: 0.4em;
+        opacity: 1;
+        text-decoration: none;
+        font-family: "Montserrat", sans-serif;
+        color: #FE5B3E;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 0.01rem;
+        padding: 0.62rem 1.56rem;
+        margin-right: 0.56rem;
+    }
+
+    .website-title-body {
+        font-family: "Montserrat", sans-serif;
+        margin-bottom: 1.5rem;
+        line-height: 4.6rem;
+        letter-spacing: 0.03rem;
+    }
+    
+    .website-title-body h2 {
+        color: #303030;
+        font-size: 5.375rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 5.875rem;
+        letter-spacing: 0.05375rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .website-text-body p {
+        font-family: "Montserrat", sans-serif;
+        font-size: 0.95rem;
+        line-height: 1.5rem;
+        letter-spacing: 0.03rem;
+        opacity: 0.8;
+        font-weight: 500;
+        width: 35.6875rem;
+        margin-bottom: 0.87rem;
+    }
+
+    .text-align-center {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #website-recomendation {
+        margin-top: 5rem;
+    }
+
+    #website-avaliation-infos {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .website-avaliation-desktop {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .secao1 {
+        margin-left: 16rem;
+        margin-top: 16rem;
+    }
+
+    .secao3 {
+        display: flex;
+        flex-direction: row;
+        margin: 0 10.44rem 0 10.38rem;
+        justify-content: space-between;
+    }
+
 }

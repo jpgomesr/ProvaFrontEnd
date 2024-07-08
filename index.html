@@ -11,59 +11,143 @@
 <body>
     <main>
         <header>
-            <div>
-                <h2 class="website-title">
-                    Carzin
-                </h2>
-            </div>
-            <nav class="website-border-orange">
-                <a href="#"><img src="/imagens/menu.svg" alt="Menu hamburguer"></a>
-            </nav>
-        </header>
-        <section class="container tesla">
-            <img src="/imagens/tesla.png" alt="Tesla vermelho com quantidade de cavalos e segundos de 0-100km/h">
-        </section>
-        <section class="container secao1">
-            <div class="website-title-body">
-                <h2>Local best and <span class="color-orange">personalized service<span></h2>
-            </div>
-            <div class="website-text-body">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices mi amet, interdum euismod placerat
-                    urna, enim faucibus.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p>
-            </div>
-            <div>
-                <div class="website-title-body">
-                    <h4>
-                        Blogs Recommendations
-                    </h4>
+            <div class="website-header">
+                <div>
+                    <h2 class="website-title">
+                        Carzin
+                    </h2>
                 </div>
-                <div class="website-avaliation">
-                    <div class="website-avaliation-image">
-                        <img src="/imagens/roda-tesla.png" alt="Imagem de roda do tesla como ícone de avaliação">
-                    </div>
-                    <div class="website-subtitle-body">
+                <nav class="website-border-orange mobile-only">
+                    <a href="#"><img src="/imagens/menu.svg" alt="Menu hamburguer"></a>
+                </nav>
+                <nav class="desktop-only">
+                    <ul class="website-navbar">
+                        <li>
+                            Rent
+                        </li>
+                        <li>
+                            Share
+                        </li>
+                        <li>
+                            Ride
+                        </li>
+                        <li>
+                            Service
+                        </li>
+                    </ul>
+                </nav>
+                <div class="desktop-only website-border-button">
+                    <h6>
+                        <a href="#">Sign Up</a>
+                    </h6>
+                </div>
+                <div class="desktop-only website-orange-button">
+                    <h6>
+                        <a href="#">Sign In</a>
+                    </h6>
+                </div>
+            </div>
+        </header>
+        <section class="website-desktop-principal">
+            <section class="container">
+                <div class="mobile-only tesla">
+                    <img src="/imagens/tesla.png" alt="Tesla vermelho com quantidade de cavalos e segundos de 0-100km/h">
+                </div>
+                <div class="desktop-only tesla">
+                    <img src="/imagens/tesla-desktop.png" alt="Tesla vermelho com quantidade de cavalos e segundos de 0-100km/h">
+                </div>
+            </section>
+            <section class="container secao1">
+                <div class="website-title-body">
+                    <h2>Local best and <span class="color-orange">personalized service<span></h2>
+                </div>
+                <div>
+                    <div class="website-text-body">
                         <p>
-                            Tesla
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices mi amet, interdum euismod
+                            placerat
+                            urna, enim faucibus.
                         </p>
-                        <h3>
-                            Model S
-                        </h3>
-                        <div class="website-avaliation-star">
-                            <div>
-                                <img src="/imagens/star.svg" alt="Estrela de avaliação">
+                    </div>
+                    <div class="website-text-body">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </p>
+                    </div>
+                </div>
+                <div id="website-recomendation">
+                    <div class="website-title-body">
+                        <h4>
+                            Blogs Recommendations
+                        </h4>
+                    </div>
+                    <div id="website-avaliation-infos">
+                        <div class="website-avaliation">
+                            <div class="website-avaliation-image">
+                                <img src="/imagens/roda-tesla.png" alt="Imagem de roda do tesla como ícone de avaliação">
                             </div>
-                            <div>
-                                <img src="/imagens/avaliation.png" alt="Número da avaliação">
+                            <div class="website-subtitle-body">
+                                <p>
+                                    Tesla
+                                </p>
+                                <h3>
+                                    Model S
+                                </h3>
+                                <div class="website-avaliation-star">
+                                    <div>
+                                        <img src="/imagens/star.svg" alt="Estrela de avaliação">
+                                    </div>
+                                    <div>
+                                        <img src="/imagens/avaliation.png" alt="Número da avaliação">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="website-avaliation-desktop">
+                            <div class="website-avaliation-image">
+                                <img src="/imagens/interior-modelx.png" alt="Imagem de roda do tesla como ícone de avaliação">
+                            </div>
+                            <div class="website-subtitle-body">
+                                <p>
+                                    Tesla
+                                </p>
+                                <h3>
+                                    Model X
+                                </h3>
+                                <div class="website-avaliation-star">
+                                    <div>
+                                        <img src="/imagens/star.svg" alt="Estrela de avaliação">
+                                    </div>
+                                    <div>
+                                        <img src="/imagens/avaliation.png" alt="Número da avaliação">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="website-avaliation-desktop">
+                            <div class="website-avaliation-image">
+                                <img src="/imagens/solar-roof.png" alt="Imagem de roda do tesla como ícone de avaliação">
+                            </div>
+                            <div class="website-subtitle-body">
+                                <p>
+                                    Tesla
+                                </p>
+                                <h3>
+                                    Solar Roof
+                                </h3>
+                                <div class="website-avaliation-star">
+                                    <div>
+                                        <img src="/imagens/star.svg" alt="Estrela de avaliação">
+                                    </div>
+                                    <div>
+                                        <img src="/imagens/avaliation.png" alt="Número da avaliação">
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
         </section>
         <section class="container secao2">
             <div class="website-subtitle-body">
@@ -382,7 +466,8 @@
                 </div>
                 <div class="website-text-image text-align-center">
                     <p class="color-white">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus libero, auctor imperdiet eu malesuada eu id cursus ullamcorper. Sed quisque
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus libero, auctor imperdiet eu
+                        malesuada eu id cursus ullamcorper. Sed quisque
                     </p>
                 </div>
                 <div class="website-image-button">
