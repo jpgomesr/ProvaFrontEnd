@@ -13,6 +13,7 @@
     margin: 0;
     border: 0;
     color: #303030;
+    padding: 0;
 }
 
 .website-header {
@@ -22,7 +23,6 @@
     margin-left: 2rem;
     margin-right: 2rem;
     margin-top: 3.87rem;
-    width: ;
 }
 
 .website-title {
@@ -832,6 +832,8 @@ footer {
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
+        padding-left: 28.69rem;
+        padding-right: 4rem;
     }
 
     .website-navbar li {
