@@ -22,6 +22,7 @@
     margin-left: 2rem;
     margin-right: 2rem;
     margin-top: 3.87rem;
+    width: ;
 }
 
 .website-title {
@@ -140,10 +141,8 @@
     display: flex;
     flex-direction: row;
     margin-top: 1.1rem;
-}
-
-.website-avaliation-star img {
-    margin-right: 0.37rem;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .website-text-body {
@@ -466,7 +465,7 @@
     color: #303030;
     font-weight: 600;
     letter-spacing: 0.0175rem;
-    margin-left: 0.37rem;
+    opacity: 1;
 }
 
 .website-littlebox-white-cars {
@@ -555,12 +554,20 @@
     letter-spacing: 0.01rem;
     text-decoration: none;
     border-radius: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    white-space: nowrap;
 }
 
 .website-image-background {
     background-image: url(/imagens/image-blur.png);
-    width: 23.375rem;
-    height: 26.625rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .website-subtitle-image h2 {
@@ -573,7 +580,6 @@
     margin-left: 1.44rem;
     margin-right: 1.56rem;
     text-align: center;
-    padding-top: 4.38rem;
 }
 
 .website-text-image {
@@ -703,7 +709,7 @@
 }
 
 .secao7 {
-    margin-top: 3.13rem;
+    margin-top: 3.13rem; 
 }
 
 footer {
@@ -764,6 +770,10 @@ footer {
         margin: 0.88rem 18rem 0 18rem;
     }
 
+    .website-margin-top-dr h4 {
+        margin-top: 2rem;
+    }
+
     .website-desktop-principal {
         display: flex;
         flex-direction: row;
@@ -822,12 +832,22 @@ footer {
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-        margin-left: 25rem;
-        margin-right: 4rem;
     }
 
     .website-navbar li {
         margin-right: 2.5rem;
+    }
+
+    .website-header-text {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .website-header-buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
     }
 
     ul li {
@@ -853,6 +873,9 @@ footer {
         letter-spacing: 0.01rem;
         padding: 0.62rem 1.56rem;
         margin-right: 0.56rem;
+        display: flex;
+        flex-wrap: nowrap;
+        white-space: nowrap;
     }
 
     .website-title-body {
@@ -891,7 +914,7 @@ footer {
     }
 
     #website-recomendation {
-        margin-top: 5rem;
+        margin-top: 3.4rem;
     }
 
     #website-avaliation-infos {
@@ -917,6 +940,48 @@ footer {
         flex-direction: row;
         margin: 0 10.44rem 0 10.38rem;
         justify-content: space-between;
+    }
+
+    .secao4 {
+        margin-left: 6.19rem;
+        margin-right: 11.25rem;
+        max-width: 28.4rem;
+    }
+
+    .max-width-secao4 {
+        max-width: 27.5rem;
+    }
+
+    .website-ferrari-image {
+        width: 44.2rem;
+    }
+
+    .website-reverse-column {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: 12.25rem;
+        align-items: flex-start;
+    }
+    
+    .website-subtitle-body-flex-start h5 {
+        font-family: "Montserrat", sans-serif;
+        margin-bottom: 1.5rem;
+        font-weight: 800;
+        margin-top: 1rem;
+        font-size: 4rem;
+        font-style: normal; 
+        line-height: 4.75rem;
+        letter-spacing: 0.04125rem;
+        max-width: none;
+    }
+
+    .website-text-box-cars p {
+        font-size: 0.875rem;
+        color: #303030;
+        font-weight: 600;
+        letter-spacing: 0.0175rem;
+        margin-left: 0.37rem;
+        opacity: 1;
     }
 
 }
