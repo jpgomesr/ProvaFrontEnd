@@ -986,4 +986,8 @@ footer {
         opacity: 1;
     }
 
+    .max-width-reverse-column {
+        max-width: 8.3rem;
+    }
+
 }
