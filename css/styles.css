@@ -754,7 +754,7 @@ footer {
         font-weight: 500;
         font-size: 1.25rem;
         opacity: 0.6;
-        margin-top: 8rem;
+        margin-top: 0;
         letter-spacing: 0.075rem;
     }
     
@@ -772,6 +772,10 @@ footer {
 
     .website-margin-top-dr h4 {
         margin-top: 2rem;
+    }
+
+    .margin-top-8rem {
+        margin-top: 8rem;
     }
 
     .website-desktop-principal {
@@ -970,7 +974,7 @@ footer {
         margin-bottom: 1.5rem;
         font-weight: 800;
         margin-top: 1rem;
-        font-size: 4rem;
+        font-size: 4.125rem;
         font-style: normal; 
         line-height: 4.75rem;
         letter-spacing: 0.04125rem;
@@ -988,6 +992,105 @@ footer {
 
     .max-width-reverse-column {
         max-width: 8.3rem;
+    }
+
+    .max-width-27rem {
+        width: 27.8rem;
+    }
+    .max-width-22rem {
+        width: 22rem;
+    }
+    .margin-botton-2rem {
+        margin-bottom: 2.75rem;
+    }
+
+    .secao5 {
+        display: flex;
+        flex-direction: row;
+        margin-left: 6.87rem;
+        margin-right: 9.5rem;
+        margin-top: 12.25rem;
+    }
+
+    .secao5-1 {
+        width: 33rem;
+        margin-right: 8.87rem;
+    }
+
+    .secao5-2 {
+        display: flex;
+        flex-direction: row;
+        gap: 1.5rem;
+        margin-top: 1.5rem;
+    }
+
+    .horizontal-advantages {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .width-30rem {
+        width: 30rem;
+    }
+
+    .website-organization-advantages {
+        display: flex;
+        margin-bottom: 0;
+        gap: 1.5rem;
+    }
+
+    .direction-row {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+    }
+
+    .website-subtitle-body-flex-start h4 {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .website-box-gray-advantages {
+        width: 11.25rem;
+        height: 11.25rem;
+        flex-shrink: 0;
+        border-radius: 11.67px;
+        background: #F3F5F7;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .website-box-gray-advantages img {
+        background: #F3F5F7;
+        margin-bottom: 0.73rem;
+        width: 2.75rem;
+        height: 2.75rem;
+    }
+    
+    .website-box-gray-advantages h5 {
+        background: #F3F5F7;
+        font-family: "Montserrat", sans-serif;
+        font-size: 1rem;
+        margin-left: 0.8rem;
+        margin-right: 0.8rem;
+        text-align: center;
+        line-height: 1.5rem;
+        letter-spacing: 0.01rem;
+        font-weight: 700;
+    }
+    
+    .website-box-gray-advantages h6 {
+        background: #f3f5f7;
+        font-family: "Montserrat", sans-serif;
+        font-size: 0.875rem;
+        text-align: center;
+        font-weight: 700;
+        line-height: 1.3125rem;
+        letter-spacing: 0.00875rem;
     }
 
 }
