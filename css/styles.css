@@ -17,12 +17,15 @@
 }
 
 .website-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     margin-left: 2rem;
     margin-right: 2rem;
     margin-top: 3.87rem;
+}
+
+.website-header-space {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .website-title {
@@ -673,6 +676,10 @@
     margin-bottom: 4rem;
 }
 
+.width-20rem {
+    width: 20rem;
+}
+
 
 /* Separações de seção */
 
@@ -908,7 +915,7 @@ footer {
         letter-spacing: 0.03rem;
         opacity: 0.8;
         font-weight: 500;
-        width: 35.6875rem;
+        width: 36rem;
         margin-bottom: 0.87rem;
     }
 
@@ -1091,6 +1098,89 @@ footer {
         font-weight: 700;
         line-height: 1.3125rem;
         letter-spacing: 0.00875rem;
+    }
+
+    .website-4layers-cars {
+        display: flex;
+        flex-direction: row;
+        margin-left: 4.13rem;
+        margin-right: 3.81rem;
+    }
+
+    .website-gap-cars {
+        gap: 2rem;
+    }
+
+    .website-div-cars-3 {
+        margin: 0;
+    }
+
+    .website-box-gray-cars {
+        width: 79.5rem;
+        height: 77.5rem;
+    }
+
+    .secao6 {
+        margin: 12.5rem 6rem 0 6rem;
+    }
+
+    .website-row-cars {
+        margin-bottom: 2.25rem;
+    }
+
+    .margin-bottom-0 {
+        margin-bottom: 0;
+    }
+
+    .website-subtitle-body-cars {
+        background-color: #f3f5f7;
+        font-family: "Montserrat", sans-serif;
+    }
+    
+    .website-subtitle-body-cars h4 {
+        background-color: #f3f5f7;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        font-weight: 500;
+        font-size: 1.15rem;
+        opacity: 0.6;
+        letter-spacing: 0.075rem;
+    }
+    
+    .website-subtitle-body-cars h5 {
+        background-color: #f3f5f7;
+        font-size: 3.5rem;
+        line-height: 2.875rem;
+        letter-spacing: 0.0225rem;
+        margin-bottom: 1.5rem;
+        font-weight: 800;
+        max-width: 40rem;
+        margin-top: 1rem;
+    }
+    
+    .website-div-cars-1 {
+        margin-left: 3.75rem;
+        margin-top: 2rem;
+    }
+
+    .website-line-cars {
+        display: flex;
+        justify-content: center;
+    }
+
+    .website-line-cars hr {
+        border: none;
+        border-top: 1px solid #303030;
+        margin-top: 2.28rem;
+        margin-bottom: 2.25rem;
+        width: 69.65625rem;
+        height: 1px;
+        opacity: 0.1;
+    }
+
+    .width-20rem {
+        width: auto;
     }
 
 }
