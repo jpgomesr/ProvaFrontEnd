@@ -16,7 +16,7 @@
     padding: 0;
 }
 
-.website-header {
+#website-header {
     margin-left: 2rem;
     margin-right: 2rem;
     margin-top: 3.87rem;
@@ -28,7 +28,7 @@
     align-items: center;
 }
 
-.website-title {
+#website-title {
     font-family: "Montserrat", sans-serif;
     font-size: 2.25rem;
     letter-spacing: 0.0225rem;
@@ -36,7 +36,7 @@
     font-weight: 800;
 }
 
-.website-border-orange {
+#website-border-orange {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,7 +46,7 @@
     opacity: 1;
 }
 
-.website-border-orange a {
+#website-border-orange a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -158,7 +158,7 @@
     margin-bottom: 0.88rem;
 }
 
-.website-avaliation {
+#website-avaliation {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -245,16 +245,7 @@
     margin-bottom: 0.87rem;
 }
 
-.website-text-body-margin-default {
-    font-family: "Montserrat", sans-serif;
-    font-size: 0.9rem;
-    line-height: 1.5rem;
-    letter-spacing: 0.03rem;
-    opacity: 0.8;
-    font-weight: 500;
-}
-
-.website-select-section {
+#website-select-section {
     margin-top: 1.88rem;
 }
 
@@ -294,7 +285,7 @@
 
 .website-border-button {
     margin-top: 2.2rem;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
 }
 
 .website-border-button a {
@@ -317,7 +308,7 @@
     margin-top: 1.7rem;
 }
 
-.website-margin-top {
+#website-margin-top {
     margin-top: 3.5rem;
 }
 
@@ -368,7 +359,7 @@
     margin-left: 1.9rem;
 }
 
-.website-box-gray-cars {
+#website-box-gray-cars {
     padding-top: 3.75rem;
     padding-bottom: 2.62rem;
     background-color: #f3f5f7;
@@ -402,17 +393,17 @@
     margin-top: 1rem;
 }
 
-.color-orange-cars {
+#color-orange-cars {
     color: #FE5B3E;
     background-color: #f3f5f7;
 }
 
-.website-div-cars-1 {
+#website-div-cars-1 {
     margin-left: 1.88rem;
     margin-right: 5rem;
 }
 
-.website-div-cars-2 {
+#website-div-cars-2 {
     display: flex;
     justify-content: space-between;
     margin-left: 1.88rem;
@@ -427,7 +418,7 @@
     margin-bottom: 4.75rem;
 }
 
-.website-text-body-cars {
+#website-text-body-cars {
     color: #303030;
     font-family: "Montserrat", sans-serif;
     font-size: 1.1rem;
@@ -521,7 +512,7 @@
     justify-content: space-between;
 }
 
-.website-pages-cars {
+#website-pages-cars {
     margin: 4.75rem 3.75rem 0 3.44rem;
     display: flex;
     justify-content: space-evenly;
@@ -532,7 +523,7 @@
     font-weight: 400;
 }
 
-.website-pages-box-white-cars {
+#website-pages-box-white-cars {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -543,7 +534,7 @@
     margin: 0 0.8rem 0 0.8rem;
 }
 
-.website-pages-button-cars {
+#website-pages-button-cars {
     margin: 2.85rem 5.94rem 0 5.63rem;
 }
 
@@ -562,7 +553,7 @@
     white-space: nowrap;
 }
 
-.website-image-background {
+#website-image-background {
     background-image: url(/imagens/image-blur.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -573,7 +564,7 @@
     flex-direction: column;
 }
 
-.website-subtitle-image h2 {
+#website-subtitle-image h2 {
     font-size: 2.2rem;
     font-weight: 700;
     font-family: "Montserrat", sans-serif;
@@ -585,7 +576,7 @@
     text-align: center;
 }
 
-.website-text-image {
+#website-text-image {
     font-family: "Montserrat", sans-serif;
     font-size: 0.95rem;
     line-height: 1.5rem;
@@ -596,27 +587,17 @@
     padding-right: 1.38rem;
 }
 
-.website-image-button {
+#website-image-button {
     display: flex;
     justify-content: center;
     padding-top: 3.37rem;
 }
 
-.website-footer-button {
+#website-footer-button {
     margin-top: 2.12rem;
 }
 
-.website-title-footer h5 {
-    color: #303030;
-    font-family: "Montserrat", sans-serif;
-    font-size: 2.1rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 2.875rem;
-    letter-spacing: 0.0225rem;
-}
-
-.website-footer-links {
+#website-footer-links {
     margin-top: 4.38rem;
 }
 
@@ -633,6 +614,7 @@
     line-height: normal;
     letter-spacing: -0.0145rem;
     margin-bottom: 1.38rem;
+    margin-top: 1.8rem;
 }
 
 .website-footer-links-text p {
@@ -647,7 +629,7 @@
     margin-bottom: 1.38rem;
 }
 
-.website-footer-policy {
+#website-footer-policy {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -669,53 +651,68 @@
     text-decoration: none;
 }
 
-.website-footer-social {
+#website-footer-social {
     width: 8.37263rem;
     height: 1.375rem;
     margin-top: 2.5rem;
     margin-bottom: 4rem;
 }
 
-.width-20rem {
+#width-20rem {
     width: 20rem;
+}
+
+#width-last-buttom {
+    width: 8.6875rem;
+}
+
+#website-text-footer h5 {
+    font-size: 2.25rem;
+    font-family: "Montserrat", sans-serif;
+    color: #303030;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 2.875rem;
+    letter-spacing: 0.0225rem;
+    width: 15rem;
 }
 
 
 /* Separações de seção */
 
-.secao1 {
+#secao1 {
     margin-left: 1.75rem;
     margin-right: 2rem;
 }
 
-.secao2 {
+#secao2 {
     margin-left: 2.06rem;
     margin-right: 2.06rem;
 }
 
-.secao3 {
+#secao3 {
     margin-left: 0.81rem;
     margin-right: 0.81rem;
     margin-top: 1rem;
 }
 
-.secao4 {
+#secao4 {
     margin-left: 2rem;
     margin-right: 2.25rem;
 }
 
-.secao5 {
+#secao5 {
     margin-left: 2rem;
     margin-right: 1.75rem;
 }
 
-.secao6 {
+#secao6 {
     margin-left: 2rem;
     margin-right: 1.75rem;
     margin-top: 5rem;
 }
 
-.secao7 {
+#secao7 {
     margin-top: 3.13rem; 
 }
 
@@ -799,7 +796,7 @@ footer {
         flex-shrink: 0;
     }
 
-    .website-title {
+    #website-title {
         font-family: "Montserrat", sans-serif;
         font-size: 2.25rem;
         letter-spacing: 0.0225rem;
@@ -807,7 +804,7 @@ footer {
         font-weight: 800;
     }
 
-    .website-header {
+    #website-header {
         margin: 3.87rem 0 0 8.75rem;
         align-items: center;
         display: flex;
@@ -943,19 +940,19 @@ footer {
     }
 
 
-    .secao1 {
+    #secao1 {
         margin-left: 16rem;
         margin-top: 16rem;
     }
 
-    .secao3 {
+    #secao3 {
         display: flex;
         flex-direction: row;
         margin: 0 10.44rem 0 10.38rem;
         justify-content: space-between;
     }
 
-    .secao4 {
+    #secao4 {
         margin-left: 6.19rem;
         margin-right: 11.25rem;
         max-width: 28.4rem;
@@ -1011,7 +1008,7 @@ footer {
         margin-bottom: 2.75rem;
     }
 
-    .secao5 {
+    #secao5 {
         display: flex;
         flex-direction: row;
         margin-left: 6.87rem;
@@ -1115,12 +1112,12 @@ footer {
         margin: 0;
     }
 
-    .website-box-gray-cars {
+    #website-box-gray-cars {
         width: 79.5rem;
-        height: 77.5rem;
+        margin-bottom: 12rem;
     }
 
-    .secao6 {
+    #secao6 {
         margin: 12.5rem 6rem 0 6rem;
     }
 
@@ -1179,8 +1176,154 @@ footer {
         opacity: 0.1;
     }
 
-    .width-20rem {
+    #width-20rem {
         width: auto;
+    }
+
+    .website-orange-circle-button a {
+        background-color: #fe5b3e;
+        border-radius: 3.125rem;
+        opacity: 1;
+        text-decoration: none;
+        font-family: "Montserrat", sans-serif;
+        color: #fff;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 0.01rem;
+        padding: 0.5rem 1rem;
+    }
+
+    .website-border-cyan a {
+        border-radius: 3.125rem;
+        border: 1px solid rgba(48, 48, 48, 0.20);
+        padding: 0.5rem 1rem;
+        text-decoration: none;
+        font-family: "Montserrat", sans-serif;
+        color: #303030;
+        font-size: 1rem;
+    }
+
+    .website-filters-cars {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    .website-filters-area-cars {
+        display: flex;
+        justify-content: space-between;
+        margin: 1.25rem 3.5rem 3.8rem 3.5rem;
+    }
+
+    .website-recently-added-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+        color: #303030;
+        padding: 1.25rem;
+        gap: 0.88rem;
+        border-radius: 14px;
+    }
+
+    .website-recently-added-button a {
+        font-size: 0.875rem;
+        font-family: "Montserrat", sans-serif;
+        text-decoration: none;
+    }
+
+    .website-div-cars-4 {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        margin: 4rem 3.8rem 0 4.13rem;
+        padding-bottom: 2.5rem;
+    }
+
+    #website-pages-button-cars, .website-pages-box-white-cars {
+        margin: 0;
+    }
+    
+    #website-pages-cars {
+        margin: 0;
+        gap: 1rem;
+    }
+
+    .website-arrows-cars {
+        background-color: #fe5b3e;
+        padding: 0.62rem;
+        gap: 1.25rem;
+        border-radius: 9px;
+    }
+    
+    #website-image-background {
+        height: 653px;
+    }
+    
+    #website-subtitle-image h2 {
+        font-size: 4.125rem;
+        width: 45rem;
+        line-height: 4.75rem;
+        letter-spacing: 0.04125rem;
+    }
+
+    .width-38rem {
+        width: 38.375rem;
+    }
+
+    #website-subtitle-image {
+        display: flex;
+        justify-content: center;
+    }
+
+    .website-terms-media {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #website-footer-policy {
+        gap: 2.44rem;
+    }
+
+    #website-footer-links {
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        gap: 10.6rem;
+    }
+
+    .website-started-links {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 3rem;
+    }
+
+    footer {
+        margin: 3.75rem 11.5rem 3.5rem 11.5rem;
+    }
+
+    .website-footer-text {
+        margin: 0;
+    }
+
+    #website-footer-social {
+        margin: 0;
+    }
+
+    .website-footer-links-text h3 {
+        margin-top: 0;
+    }
+
+    #website-div-cars-2 {
+        display: none;
     }
 
 }
