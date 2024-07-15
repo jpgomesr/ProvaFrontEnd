@@ -805,10 +805,10 @@ footer {
     }
 
     #website-header {
-        margin: 3.87rem 0 0 8.75rem;
+        margin: 3.87rem 7.1rem 0;
         align-items: center;
         display: flex;
-        justify-content: normal;
+        justify-content: space-between;
         position: relative;
     }
 

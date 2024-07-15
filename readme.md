@@ -9,7 +9,7 @@ O site selecionado por sorteio foi o "Carzin", que tem como finalidade a venda e
 
 Instruções para Execução
 Passo 1: Download do Arquivo
-    Faça o download do arquivo "provafrontend.zip" disponível na plataforma Classroom.
+    Faça o download do arquivo "ProvaFrontEnd.zip" disponível na plataforma Classroom.
 Passo 2: Descompactar o Arquivo
     Descompacte o arquivo em uma pasta de sua escolha.
 Passo 3: Configuração no Visual Studio
