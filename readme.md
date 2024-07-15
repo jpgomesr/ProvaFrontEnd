@@ -23,3 +23,6 @@ Passo 6: Modo Desenvolvedor
 
 Considerações Finais
 Este projeto foi uma excelente oportunidade para aplicar os conceitos de desenvolvimento front-end e aprimorar habilidades práticas em HTML e CSS. Estou à disposição para qualquer dúvida ou necessidade de suporte adicional durante o desenvolvimento.
+
+Contatos
+- [Github]: (<https://github.com/JoaoPauloGR08>)
