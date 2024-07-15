@@ -210,7 +210,7 @@
     align-items: center;
     width: 8em;
     height: 8em;
-    flex-shrink: 0; 
+    flex-shrink: 0;
 }
 
 .website-circle-red img {
@@ -713,7 +713,7 @@
 }
 
 #secao7 {
-    margin-top: 3.13rem; 
+    margin-top: 3.13rem;
 }
 
 footer {
@@ -740,17 +740,17 @@ footer {
         font-family: "Montserrat", sans-serif;
         font-style: normal;
     }
-    
+
     .website-subtitle-body p {
         opacity: 0.4;
         margin-bottom: 0.2rem;
     }
-    
+
     .website-subtitle-body h3 {
         font-size: 1.25rem;
         font-weight: 700;
     }
-    
+
     .website-subtitle-body h4 {
         display: flex;
         align-items: center;
@@ -761,7 +761,7 @@ footer {
         margin-top: 0;
         letter-spacing: 0.075rem;
     }
-    
+
     .website-subtitle-body h5 {
         font-size: 4.125rem;
         font-family: "Montserrat", sans-serif;
@@ -811,7 +811,7 @@ footer {
         justify-content: normal;
         position: relative;
     }
-    
+
     .website-orange-button a {
         background-color: #fe5b3e;
         border-radius: 10.5px;
@@ -867,7 +867,7 @@ footer {
     .website-border-button {
         margin: 0;
     }
-    
+
     .website-border-button a {
         border: 1px solid rgba(254, 91, 62, 0.3);
         border-radius: 10.5px;
@@ -894,7 +894,7 @@ footer {
         line-height: 4.6rem;
         letter-spacing: 0.03rem;
     }
-    
+
     .website-title-body h2 {
         color: #303030;
         font-size: 5.375rem;
@@ -972,14 +972,14 @@ footer {
         margin-top: 12.25rem;
         align-items: flex-start;
     }
-    
+
     .website-subtitle-body-flex-start h5 {
         font-family: "Montserrat", sans-serif;
         margin-bottom: 1.5rem;
         font-weight: 800;
         margin-top: 1rem;
         font-size: 4rem;
-        font-style: normal; 
+        font-style: normal;
         line-height: 4.75rem;
         letter-spacing: 0.04125rem;
         max-width: none;
@@ -1001,9 +1001,11 @@ footer {
     .max-width-27rem {
         width: 27.8rem;
     }
+
     .max-width-22rem {
         width: 22rem;
     }
+
     .margin-botton-2rem {
         margin-bottom: 2.75rem;
     }
@@ -1067,14 +1069,14 @@ footer {
         align-items: center;
         flex-direction: column;
     }
-    
+
     .website-box-gray-advantages img {
         background: #F3F5F7;
         margin-bottom: 0.73rem;
         width: 2.75rem;
         height: 2.75rem;
     }
-    
+
     .website-box-gray-advantages h5 {
         background: #F3F5F7;
         font-family: "Montserrat", sans-serif;
@@ -1086,7 +1088,7 @@ footer {
         letter-spacing: 0.01rem;
         font-weight: 700;
     }
-    
+
     .website-box-gray-advantages h6 {
         background: #f3f5f7;
         font-family: "Montserrat", sans-serif;
@@ -1133,7 +1135,7 @@ footer {
         background-color: #f3f5f7;
         font-family: "Montserrat", sans-serif;
     }
-    
+
     .website-subtitle-body-cars h4 {
         background-color: #f3f5f7;
         display: flex;
@@ -1144,7 +1146,7 @@ footer {
         opacity: 0.6;
         letter-spacing: 0.075rem;
     }
-    
+
     .website-subtitle-body-cars h5 {
         background-color: #f3f5f7;
         font-size: 3.5rem;
@@ -1155,7 +1157,7 @@ footer {
         max-width: 40rem;
         margin-top: 1rem;
     }
-    
+
     .website-div-cars-1 {
         margin-left: 3.75rem;
         margin-top: 2rem;
@@ -1244,10 +1246,11 @@ footer {
         padding-bottom: 2.5rem;
     }
 
-    #website-pages-button-cars, .website-pages-box-white-cars {
+    #website-pages-button-cars,
+    .website-pages-box-white-cars {
         margin: 0;
     }
-    
+
     #website-pages-cars {
         margin: 0;
         gap: 1rem;
@@ -1259,11 +1262,11 @@ footer {
         gap: 1.25rem;
         border-radius: 9px;
     }
-    
+
     #website-image-background {
         height: 653px;
     }
-    
+
     #website-subtitle-image h2 {
         font-size: 4.125rem;
         width: 45rem;
@@ -1324,6 +1327,10 @@ footer {
 
     #website-div-cars-2 {
         display: none;
+    }
+
+    #website-div-cars-1 {
+        margin-left: 3.75rem;
     }
 
 }
