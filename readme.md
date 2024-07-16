@@ -36,3 +36,7 @@ Este projeto foi uma excelente oportunidade para aplicar os conceitos de desenvo
 ## **Contatos**
 - **Github:** [JoaoPauloGR08](https://github.com/JoaoPauloGR08)
 - **Email:** jpgomesr07@gmail.com
+- **Site:** [Carzin](https://prova-front-end-sepia.vercel.app/)
+    - **Instruções**
+        - **Mobile:** width = 375px
+        - **Desktop:** width = 1440px
