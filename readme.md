@@ -12,6 +12,13 @@ O site "Carzin" foi selecionado por sorteio e tem como finalidade a venda e alug
 
 ## Instruções para Execução
 
+- **Site:** [Carzin](https://prova-front-end-sepia.vercel.app/)
+    - **Instruções**
+        - **Mobile:** width = 375px
+        - **Desktop:** width = 1440px
+
+# OU
+
 - Passo 1: Download do Arquivo
     - Faça o download do arquivo "ProvaFrontEnd.zip" disponível na plataforma Classroom.
 
@@ -36,7 +43,3 @@ Este projeto foi uma excelente oportunidade para aplicar os conceitos de desenvo
 ## **Contatos**
 - **Github:** [JoaoPauloGR08](https://github.com/JoaoPauloGR08)
 - **Email:** jpgomesr07@gmail.com
-- **Site:** [Carzin](https://prova-front-end-sepia.vercel.app/)
-    - **Instruções**
-        - **Mobile:** width = 375px
-        - **Desktop:** width = 1440px
