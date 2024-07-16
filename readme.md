@@ -13,9 +13,8 @@ O site "Carzin" foi selecionado por sorteio e tem como finalidade a venda e alug
 ## Instruções para Execução
 
 - **Site:** [Carzin](https://prova-front-end-sepia.vercel.app/)
-    - **Instruções**
-        - **Mobile:** width = 375px
-        - **Desktop:** width = 1440px
+    - **Mobile:** width = 375px
+    - **Desktop:** width = 1440px
 
 ### OU
 
