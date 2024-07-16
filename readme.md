@@ -17,7 +17,7 @@ O site "Carzin" foi selecionado por sorteio e tem como finalidade a venda e alug
         - **Mobile:** width = 375px
         - **Desktop:** width = 1440px
 
-# OU
+### OU
 
 - Passo 1: Download do Arquivo
     - Faça o download do arquivo "ProvaFrontEnd.zip" disponível na plataforma Classroom.
