@@ -17,7 +17,7 @@ O site "Carzin" foi selecionado por sorteio e tem como finalidade a venda e alug
 ## Instruções para Execução
 
 - Passo 1: Download do Arquivo
-    - Faça o download do arquivo "ProvaFrontEnd.zip" disponível na plataforma Classroom.
+    - Faça o download do arquivo "ProvaFrontEnd.zip".
 
 - Passo 2: Descompactar o Arquivo
     - Descompacte o arquivo em uma pasta de sua escolha.
